@@ -9,6 +9,7 @@ declare var $ :any;
 })
 export class AppComponent implements OnInit {
   title = 'SONGHUB';
+  searchText:string;
   songs :any= [];
   filteredData:any=[];
   selectedData :any= [];
